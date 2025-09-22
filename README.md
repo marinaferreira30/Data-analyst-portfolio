@@ -10,7 +10,7 @@ To explore AWS cost and usage data, I used SQL for my own analysis before buildi
 2. Service-Level-Analysis - Aggregating costs by service to determine which service contributed the most to cloud expenses.
 3. Usage-Type Analysis - Breaking down costs by usage type to highlight where resources were driving the largest spend.
 
-1. MONTHLY SPEND ANALYSIS
+###MONTHLY SPEND ANALYSIS
 
 ```sql
 SELECT TO_CHAR("Date", 'YYYY-MM') AS month,
@@ -27,7 +27,7 @@ Result:
 | 2024-03 | 27410.64    |
 
 
-2. SERVICE-LEVEL-ANALYSIS
+###SERVICE-LEVEL-ANALYSIS
 
 ```sql
 SELECT "Service",
@@ -45,7 +45,7 @@ Result:
 | S3       | 14767.38      |
 | RDS      | 13154.07      |
 
-3. USAGE-TYPE ANALYSIS
+###USAGE-TYPE ANALYSIS
 
 ```sql
 SELECT "UsageType",
@@ -63,5 +63,5 @@ Result:
 | S3       | 14767.38      |
 | RDS      | 13154.07      |
 
-##TABLEAU DASHBOARD
+###TABLEAU DASHBOARD
 After completing the SQL analysis. I built an interactive Tableau dashboard to visualize AWS cloud spending.
