@@ -37,7 +37,7 @@ GROUP BY "Service"
 ORDER BY total_spend DESC;
 ```
 Result:
-| Service  | Total Spend   |
+| service  | total_spend   |
 |----------|---------------|
 | Lambda   | 15985.22      |
 | EC2      | 15831.00      |
@@ -55,7 +55,7 @@ GROUP BY "UsageType"
 ORDER BY total_spend DESC;
 ```
 Result:
-| Service  | Total Spend   |
+| service  | total_spend   |
 |----------|---------------|
 | Lambda   | 15985.22      |
 | EC2      | 15831.00      |
