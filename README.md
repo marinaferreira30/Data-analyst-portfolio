@@ -91,6 +91,12 @@ ORDER BY month;
 
 ### Tableau Dashboard
 
+I created an interactive dashboard in Tableau to visualize data based on service, usage type, region, and linked account.
+Through the dashboard, you can: 
+- View KPIs that show both the total cost for each month and the overall cumulative cost.
+- Explore an interactive bar chart that allows you to switch between different views, including service, usage type, linked account, and regions.
+- Acess an interactive donut chart that displays the percentage of total cost for each category, corresponding to the view of the bar chart.
+- Analize a summary table that presents monthly spending by account, including total costs for each month and total costs per account.
 
 ## Analysis
 EC2 spend dominated costs, which is unsurprising as this tends to be the case in most cloud deployments. It was interesting to see, though, that this spend (along with S3 requests) would drop over the weekend. This suggests this business is proportional to user traffic and thus may be tied to the financial week and would expect that the hourly spend is tied to market hours.
