@@ -108,4 +108,4 @@ EC2 spend dominated costs, which is unsurprising as this tends to be the case in
 
 While total spend rose MoM, Account 1 declined over this period. This could suggest a dev account declining as production ramps, a product/feature with declining usage, or perhaps a migration to more efficient service. The total costs still rose over time though, indicating other accounts outweighed account 1's reduction.
 
-Further, [INPUT WHICH REGION] began as by far the largest spend, but over time [INPUT WHICH REGION] grew as well, suggesting intended expansion in other region. Typically this will coorespond to intended business expansion to other regions to be closer to users in an attempt to lower latency and data transfer costs.
+Further, us-east-1 began as by far the largest spend, but over time us-west-2 grew as well, suggesting intended expansion in other region. Typically this will coorespond to intended business expansion to other regions to be closer to users in an attempt to lower latency and data transfer costs.
