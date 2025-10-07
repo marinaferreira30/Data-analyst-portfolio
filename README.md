@@ -1,6 +1,9 @@
 # 1. Data Analyst Portfolio
 SQL + Tableau project to analyze AWS cloud costs and provide dashboards for visibility and optimization.
 
+**Interactive Dashboard:**  
+👉 [View on Tableau Public](https://public.tableau.com/views/Book153211101copy2/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ## 2. Summary
 Using SQL and tableau I analyzed cost and usage report (CUR) data from an anonymized AWS environment. The intention was to analyze key spending trends over time by account, service, and usage type to identify areas of opportunity for optimization and cost reduction. I used SQL to quickly analyze these trends adhoc and build a self-service tableau dashboard which would enable users to answer billing questions themselves, without needing to ask me to manipulate data manually. In the future the dashboard would be section accessed via dynamic user functions as a data source filter to ensure that users only see their business' costs; leaving this unfiltered may cause privacy concerns due to sensitive nature of financial data.
 
