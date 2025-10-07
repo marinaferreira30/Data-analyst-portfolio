@@ -98,7 +98,7 @@ Through the dashboard, you can:
 - Acess an interactive donut chart that displays the percentage of total cost for each category, corresponding to the view of the bar chart.
 - Analize a summary table that presents monthly spending by account, including total costs for each month and total costs per account.
 
-https://public.tableau.com/views/Book15321110/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+[View Interactive Dashboard on Tableau Public](https://public.tableau.com/views/Book153211101copy2/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## 6. Analysis
 EC2 spend dominated costs, which is unsurprising as this tends to be the case in most cloud deployments. It was interesting to see, though, that this spend (along with S3 requests) would drop over the weekend. This suggests this business is proportional to user traffic and thus may be tied to the financial week and would expect that the hourly spend is tied to market hours.
